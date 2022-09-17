@@ -518,7 +518,15 @@ img {
 }
 
 .skills__js{
-  width: 60%;
+  width: 50%;
+}
+
+.skills__bootstrap{
+  width: 90%;
+}
+
+.skills__jquery{
+  width: 75%;
 }
 
 .skills__react{
@@ -545,12 +553,16 @@ img {
   width: 90%;
 }
 
-.skills__sketch{
-  width: 85%;
+.skills__animate{
+  width: 60%;
+}
+
+.skills__illustrator{
+  width: 80%;
 }
 
 .skills__photoshop{
-  width: 85%;
+  width: 70%;
 }
 
 .skills__close .skills__list{
@@ -1098,12 +1110,16 @@ img {
   }
 
   .about__container,
-  .skills__container,
   .portfolio__content,
   .project__container,
   .contact__container,
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+  .skills__container{
+    grid-template-columns: repeat(1, 2fr);
   }
 
   .qualification__sections{
