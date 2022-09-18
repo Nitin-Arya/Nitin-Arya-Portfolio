@@ -1350,3 +1350,11 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+/* Custom CSS Submit */
+
+button{
+  border: 0;
+  font-family: var(--body-font);
+}
